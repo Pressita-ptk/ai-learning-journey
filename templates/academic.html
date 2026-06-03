@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+
+    <h1>🎓 Academic Participation</h1>
+
+    <div class="projects">
+
+        <div class="card">
+
+           <img src="{{ url_for('static', filename='images/hackathon.png') }}"
+     alt="Rapid-Build with AI Hackathon">
+
+
+            <h3>Rapid-Build with AI (Hackathon)</h3>
+
+            <p>
+                Participated in an 8-hour hackathon at InnovateX International Tech-Fest 2026
+                powered by Unstop. Built a resume-based AI hiring system that filters candidates
+                and compares resumes for accuracy prediction.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="{{ url_for('static', filename='images/technopia.png') }}"
+     alt="Technopia 2026">
+
+            <h3>Technopia 2026</h3>
+
+            <p>
+                Participated in a prompt engineering battle focused on optimizing AI prompts
+                for structured and accurate outputs.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+    <img src="{{ url_for('static', filename='images/swe.png') }}"
+         alt="Society of Women Engineers Seminar">
+
+    <h3>Society of Women Engineers (SWE) Seminar</h3>
+
+    <p>
+        Attended an insightful seminar organized by the Society of Women Engineers (SWE),
+        focused on career development, industry expectations, and real-world software
+        engineering practices shared by professionals.
+    </p>
+
+</div>
+
+    </div>
+
+</section>
+
+{% endblock %}

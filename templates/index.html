@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AI Learning Journey</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <div class="navbar">
+        <h2 class="logo">AI Journey</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#academic">Academic</a>
+            <a href="#certificates">Certificates</a>
+        </div>
+    </div>
+
+    <!-- HOME -->
+    <section id="home">
+
+        <h1>🚀 My AI Learning Journey</h1>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! I'm exploring AI, programming, and emerging technologies.
+            This website documents the concepts I learn, tools I discover,
+            experiments I build, and ideas that inspire me.
+        </p>
+
+        <h2>Concepts I've Explored</h2>
+
+        <ul>
+            <li>Python Programming</li>
+            <li>Machine Learning</li>
+            <li>Flask Web Development</li>
+            <li>Neural Networks</li>
+        </ul>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>📂 Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>Flask First Website</h3>
+                <p>My first web app using Flask and Python.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Learning Tracker</h3>
+                <p>A system to track my AI learning progress.</p>
+            </div>
+
+            <div class="card">
+                <h3>Future Project</h3>
+                <p>Coming soon...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ACADEMIC -->
+    <section id="academic">
+
+        <h2>🎓 Academic Participation</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>Rapid-Build with AI (Hackathon)</h3>
+                <p>
+                    Participated in an 8-hour hackathon at InnovateX International Tech-Fest 2026
+                    powered by Unstop. Built a smart hiring web platform using resume datasets that:
+                    filters candidates based on keywords and compares multiple resumes to predict
+                    hiring accuracy.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Technopia 2026</h3>
+                <p>
+                    Participated in a prompt engineering battle focused on optimizing AI prompts
+                    for performance, accuracy, and structured outputs.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Society of Women Engineers (SWE) Seminar</h3>
+                <p>
+                    Attended an insightful seminar organized by the Society of Women Engineers (SWE),
+                    focused on career development, industry expectations, and real-world software
+                    engineering practices shared by professionals.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+
+        <h2>📜 Infosys Certificates Line-Up</h2>
+
+        <div class="gallery">
+
+            <a href="{{ url_for('static', filename='images/ai.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/ai.png') }}">
+            </a>
+
+            <a href="{{ url_for('static', filename='images/Basics.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/Basics.png') }}">
+            </a>
+
+            <a href="{{ url_for('static', filename='images/gpt.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/gpt.png') }}">
+            </a>
+
+            <a href="{{ url_for('static', filename='images/part1.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/part1.png') }}">
+            </a>
+
+            <a href="{{ url_for('static', filename='images/part2.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/part2.png') }}">
+            </a>
+            <a href="{{ url_for('static', filename='images/deeplearning.png') }}" target="_blank">
+                <img src="{{ url_for('static', filename='images/deeplearning.png') }}">
+            </a>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

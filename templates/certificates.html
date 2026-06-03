@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+
+    <h1>📜 Certificates</h1>
+
+    <div class="gallery">
+
+        <a href="{{ url_for('static', filename='images/ai.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/ai.png') }}">
+        </a>
+
+        <a href="{{ url_for('static', filename='images/Basics.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/Basics.png') }}">
+        </a>
+
+        <a href="{{ url_for('static', filename='images/gpt.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/gpt.png') }}">
+        </a>
+
+        <a href="{{ url_for('static', filename='images/part1.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/part1.png') }}">
+        </a>
+
+        <a href="{{ url_for('static', filename='images/part2.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/part2.png') }}">
+        </a>
+      <a href="{{ url_for('static', filename='images/deeplearning.png') }}" target="_blank">
+            <img src="{{ url_for('static', filename='images/deeplearning.png') }}">
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}

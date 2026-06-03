@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AI Journey</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <h2 class="logo">AI Journey</h2>
+
+    <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/projects">Projects</a>
+    <a href="/academic">Academic</a>
+    <a href="/certificates">Certificates</a>
+    <a href="/skills">Skills</a>
+    <a href="/timeline">Timeline</a>
+    <a href="/contact">Contact</a>
+</div>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+
+</html>
